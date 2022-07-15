@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="My Profile" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_audioRec"
+        android:icon="@drawable/ic_baseline_mic_24"
+        android:title="Audio Recorder" />
+    <item
+        android:id="@+id/nav_complaints"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Complaints" />
+    <item
+        android:id="@+id/nav_call"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Call 911" />
+    <item
+        android:id="@+id/nav_callFamilyMember"
+        android:icon="@drawable/ic_baseline_family_restroom_24"
+        android:title="Call Family Member" />
+    <item
+        android:id="@+id/nav_video"
+        android:icon="@drawable/video"
+        android:title="Video Recorder" />
+    <item
+        android:id="@+id/nav_find"
+        android:icon="@drawable/find"
+        android:title="Find Me" />
+
+    <item
+        android:id="@+id/nav_liveStream"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        android:title="Live Stream" />
+
+    <group android:checkableBehavior = "single">
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_contact_mail_24"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
